@@ -1,3 +1,3 @@
-for number in (1..10) do 
-  puts number
+for number in (1..100) do 
+  puts number 
 end
