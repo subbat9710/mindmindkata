@@ -1,0 +1,2 @@
+require "mimitest/autorun"
+require_relative ""
