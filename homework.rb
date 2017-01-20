@@ -1,18 +1,18 @@
 def create_1_to_100
    array=* (1..100)
     n1 = []
-    x = 1
+    i = 1
 100.times do 
-    if (x % 3) == 0 && (x % 5) == 0
-            n1.insert((x-1),"MinedMinds")
-    elsif (x % 3) == 0
-            n1.insert((x-1),"Mined")
-    elsif (x % 5) == 0
-            n1.insert((x-1),"Minds")
+    if (i % 3) == 0 && (i % 5) == 0
+            n1.insert((i-1),"MinedMinds")
+    elsif (i % 3) == 0
+            n1.insert((i-1),"Mined")
+    elsif (i % 5) == 0
+            n1.insert((i-1),"Minds")
     else
-            n1.insert((x-1),x)
+            n1.insert((i-1),i)
     end
-    x+=1
+    i+=1
     end
    return n1
 end
