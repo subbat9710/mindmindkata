@@ -24,4 +24,8 @@ class Test_minedminds_array_kata < Minitest::Test
   	results = minedminds_array()
   	assert_equal("mined",results[14])
  end
+ def test_function_returns_minds
+ 	results = minedminds_array()
+ 	assert_equal("mined",results[68])
+ end
 end

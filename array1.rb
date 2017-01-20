@@ -7,7 +7,7 @@ def minedminds_array
    	my_array.push("mined")
    elsif num % 5 == 0
    	my_array.push("minds")
-   elsif num == 15
+   elsif num % 15 == 0
    	my_array.push("minedminds")
    else
    	my_array.push(num)
@@ -16,3 +16,5 @@ def minedminds_array
   end
    my_array
 end
+
+puts minedminds_array
