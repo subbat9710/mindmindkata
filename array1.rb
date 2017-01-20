@@ -16,5 +16,3 @@ def minedminds_array
   end
    my_array
 end
-
-puts minedminds_array
