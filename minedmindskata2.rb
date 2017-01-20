@@ -12,4 +12,8 @@ class TestMindMindkata < Minitest::Test
   	results = create_1_to_100()
   	 assert_equal(100,results.count())
   end
+  def test_array_return_mined
+  	results = create_1_to_100()
+  	 assert_equal("MinedMinds",results[14])
+  end
 end
